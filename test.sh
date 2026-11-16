@@ -1,46 +1,31 @@
-New-Item test.sh
- Каталог: D:\Vasiukhno_IT_Step
+(.venv) PS D:\Vasiukhno_IT_Step> history
 
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        12.11.2026     19:45              0 test.sh
-
-
-(.venv) PS D:\Vasiukhno_IT_Step> pwd
-
-Path
-----
-D:\Vasiukhno_IT_Step
-
-(.venv) PS D:\Vasiukhno_IT_Step> ls
-
-
-    Каталог: D:\Vasiukhno_IT_Step
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        10.11.2026     20:20                .idea
-d-----        14.10.2026     14:17                .venv
-d-----        12.11.2026     19:34                Lesson_12_11
--a----        13.10.2026     23:19            544 main.py
--a----        12.11.2026     19:47            295 test.sh
-
-(.venv) PS D:\Vasiukhno_IT_Step> mkdir module_git
-
-
-    Каталог: D:\Vasiukhno_IT_Step
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        12.11.2026     19:50                module_git
-
-(.venv) PS D:\Vasiukhno_IT_Step> cd module_git
-
-(.venv) PS D:\Vasiukhno_IT_Step\module_git> pwd
-
-Path
-----
-D:\Vasiukhno_IT_Step\module_git
+  Id CommandLine
+  -- -----------
+   1 pwd
+   2 ls
+   3 mkdir module_git
+   4 cd module_git\
+   5 pwd
+   6 cd..
+   7 cd module_git\
+   8 new-item main.py
+   9 mkdir src
+  10 mkdir tests
+  11 mkdir books
+  12 mkdir config
+  13 cd src\
+  14 new-item main.py
+  15 new-item library.py
+  16 cd..
+  17 cd tests\
+  18 new-item test_pre_commit.py
+  19 cd..
+  20 cd books\
+  21 new-item books.json
+  22 cd..
+  23 cd config\
+  24 new-item settings.json
+  25 cd..
+  26 cd..
+  27 git config --list
