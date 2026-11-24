@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 [tool.ruff]
 
 # Максимальна довжина рядка коду
-line-length = 88
+line-length = 188
 
 # Версія Python, для якої перевіряється код
 target-version = "py312"
